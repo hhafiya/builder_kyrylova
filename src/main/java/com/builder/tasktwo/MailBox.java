@@ -16,8 +16,8 @@ public class MailBox {
             infos.add(mailInfo);
         } else {
             throw new IllegalArgumentException(
-                "This MailInfo does not belong " +
-                "to the owner of this MailBox."
+                "This MailInfo does not belong "
+                + "to the owner of this MailBox."
                 );
         }
     }

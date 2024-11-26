@@ -11,8 +11,8 @@ import org.json.JSONObject;
 
 public class MailSender {
 
-    private MailjetClient client;
     private static final int RESPONSE = 200;
+    private MailjetClient client;
 
     public MailSender() {
         String apiKey = "6b7";

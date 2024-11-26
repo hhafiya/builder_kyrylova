@@ -6,14 +6,14 @@ public class Main {
     public static void main(String[] args) throws MailjetException {
 
         
-        Client client1 = new Client();
-        MailInfo mailInfo1 = new MailInfo(client1, new Happy());
+        Client clientOne = new Client();
+        MailInfo mailInfoOne = new MailInfo(clientOne, new Happy());
         
         MailSender mailSender = new MailSender();
-        mailSender.sendMail(mailInfo1);
+        mailSender.sendMail(mailInfoOne);
 
-        MailBox mailBox1 = client1.getMailBox();
-        mailBox1.addMailInfo(mailInfo1);
-        mailBox1.sendAll();
+        MailBox mailBoxOne = clientOne.getMailBox();
+        mailBoxOne.addMailInfo(mailInfoOne);
+        mailBoxOne.sendAll();
     }
 }
