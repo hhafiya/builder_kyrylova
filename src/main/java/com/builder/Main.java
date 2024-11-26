@@ -1,7 +1,7 @@
 package com.builder;
 
 import java.util.Arrays;
-import com.builder.task1.Student;
+import com.builder.taskone.Student;
 
 public class Main {
     private static final int GRADE_ONE = 85;
